@@ -19,9 +19,7 @@ body {
 
 .header-logo {
 	display: block;
-	background: url('../images/logo.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url('../images/logo.svg') 0 0/cover no-repeat;
 	width: 176px;
 	height: 56px;
 }
