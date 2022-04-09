@@ -17,7 +17,7 @@ body {
 	padding-bottom: 25px;
 }
 
-.header a.header-logo {
+.header-logo {
 	display: block;
 	background: url('../images/logo.svg');
 	background-size: cover;
