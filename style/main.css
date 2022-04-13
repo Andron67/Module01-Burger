@@ -294,7 +294,6 @@ header {
 
 .menu-grid-btn {
 	border: none;
-   text-align: center;
 	border-radius: 5px;
 	background-color: #FBB731;
 	width: 152px;
@@ -314,8 +313,8 @@ header {
 	content: '';
 	background: url('../images/cart-menu.svg') 0 0 no-repeat;
 	width: 18px;
-	height: 13px;
+	height: 18px;
 	position: absolute;
-	top: 2px;
+	top: 0px;
 	right: 65px;
 }
