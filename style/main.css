@@ -226,7 +226,6 @@ header {
 /* --------- SECTION MAIN-MENU ---------------- */
 
 .menu-header {
-	border: 1px solid #000;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -301,10 +300,6 @@ header {
 	width: 152px;
 	height: 44px;
 	margin-bottom: 26px;
-}
-
-span.menu-grid-icon {
-	
 }
 
 .menu-grid-text {
