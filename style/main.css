@@ -224,6 +224,9 @@ header {
 }
 
 /* --------- SECTION MAIN-MENU ---------------- */
+.menu {
+	margin-bottom: 100px;
+}
 
 .menu-header {
 	display: flex;
@@ -317,4 +320,8 @@ header {
 	position: absolute;
 	top: 0px;
 	right: 65px;
+}
+
+.menu-additionally {
+	margin-bottom: 100px;
 }
