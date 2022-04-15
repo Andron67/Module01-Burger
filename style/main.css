@@ -8,16 +8,20 @@ body {
 	padding: 0px 15px;
 }
 
-header {
-	border-bottom: 1px solid #DEDEDE;
-}
-
 .header {
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding-top: 26px;
 	padding-bottom: 25px;
+}
+
+.header-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 68.5%;
 }
 
 .header-logo {
@@ -25,14 +29,12 @@ header {
 	background: url('../images/logo.svg') 0 0/cover no-repeat;
 	width: 176px;
 	height: 56px;
-	margin-right: 195px;
 }
 
 .header-nav {
 	list-style-type: none;
 	display: flex;
 	padding-left: 0;
-	margin-right: 295px;
 	gap: 47px;
 }
 
@@ -46,6 +48,7 @@ header {
 
 .header-nav a:hover {
 	color: #FFC725;
+	transition: all 0.5s ease 0s;
 }
 
 .header-nav a::after {
@@ -217,12 +220,19 @@ header {
 	color: #1E2F40;
 	background-color: #FBB731;
 	border-radius: 5px;
-	padding: 20px 27px;
+	padding: 18px 25px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
+	border: 1px solid #FBB731;
+}
+
+.banner-link:hover {
+	background-color: transparent;
+	color: #FBB731;
+	transition: all 0.5s ease 0s;
 }
 
 /* --------- SECTION MAIN-MENU ---------------- */
@@ -307,6 +317,12 @@ header {
 	gap: 9px;
 }
 
+.menu-grid-btn:hover {
+	background-color: #F37335;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
 .menu-grid-icon {
 	background: url('../images/cart-menu.svg') 0 0 no-repeat;
 	display: block;
@@ -327,7 +343,7 @@ header {
 	color: #fff;
 	padding-top: 117px;
 	padding-bottom: 106px;
-	margin-top: 140px;
+	margin-top: 144px;
 }
 
 .footer-box {
@@ -366,6 +382,11 @@ header {
 	font-weight: 400;
 }
 
+.footer-item a:hover {
+	color:#FBB731;
+	transition: all 0.5s ease 0s;
+}
+
 .footer-item span {
 	color: #DEDEDE;
 	display: block;
@@ -373,12 +394,18 @@ header {
 	margin-bottom: 2px;
 }
 
-.footer-tel ul {
+.footer-list-tel a {
 	font-size: 20px;
+   text-decoration: none;
 	color: #FBB731;
 }
 
-.footer-tel li {
+.footer-list-tel a:hover {
+	color: #fff;
+	transition: all 0.5s ease 0s;
+}
+
+.footer-list-tel li {
 	margin-bottom: 12px;
 }
 
