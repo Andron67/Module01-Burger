@@ -435,7 +435,7 @@ body {
 	font-size: 120px;
 	font-weight: 800;
 	text-transform: uppercase;
-	line-height: 120px;
+	line-height: 1.2;
 	margin-bottom: 40px;
  }
 
@@ -443,7 +443,7 @@ body {
 	color: #fbb731;
 	font-size: 30px;
 	font-weight: 700;
-	line-height: 38px;
+	line-height: 1.3;
 	display: block;
 	margin-bottom: 10px;
  }
@@ -516,18 +516,18 @@ body {
 	margin-bottom: 8px;
  }
 
- .description {
+ .promo-description {
 	font-family: "Lato", sans-serif;
 	color: #faf9f9;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 1.6;
  }
 
- .promo-left .description {
+ .promo-left .promo-description {
 	max-width: 392px;
  }
 
- .promo-right .description {
+ .promo-right .promo-description {
 	max-width: 300px;
 	margin-bottom: 20px;
  }
