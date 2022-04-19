@@ -44,11 +44,11 @@ body {
   font-weight: 600;
   line-height: 1.2;
   text-decoration: none;
+  transition: all 0.5s ease 0s;
 }
 
 .header-nav a:hover {
   color: #ffc725;
-  transition: all 0.5s ease 0s;
 }
 
 .header-nav a::after {
@@ -126,6 +126,7 @@ body {
   font-size: 15px;
   font-weight: 400;
   text-decoration: none;
+  transition: all 0.5s ease 0s;
 }
 
 .breadcrumbs a:hover {
@@ -177,6 +178,7 @@ body {
   padding: 100px 0px 120px 100px;
   background: url("../images/banner.jpg") 0 0 / cover no-repeat;
   background-position: center center;
+  padding-bottom: 80px;
 }
 
 .banner-title {
@@ -227,17 +229,18 @@ body {
   font-size: 14px;
   font-weight: 700;
   border: 1px solid #fbb731;
+  transition: all 0.5s ease 0s;
 }
 
 .banner-link:hover {
   background-color: transparent;
   color: #fbb731;
-  transition: all 0.5s ease 0s;
 }
 
 /* --------- SECTION MAIN-MENU ---------------- */
 .menu {
-  margin-bottom: 100px;
+	padding-top: 20px;
+   margin-bottom: 100px;
 }
 
 .menu-header {
@@ -311,6 +314,7 @@ body {
   background-color: #fbb731;
   padding: 10px 32px;
   margin: 0 auto;
+  transition: all 0.5s ease 0s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -320,7 +324,6 @@ body {
 .menu-grid-btn:hover {
   background-color: #f37335;
   cursor: pointer;
-  transition: all 0.5s ease 0s;
 }
 
 .menu-grid-icon {
@@ -413,6 +416,33 @@ body {
 .footer-list {
   list-style-type: none;
   padding: 0px;
+}
+
+.button-up {
+	background-color: #fbb731;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color:#1e2f40;
+	text-decoration: none;
+	padding: 5px 20px;
+	position: fixed;
+	border-radius: 5px;
+	bottom: 20px;
+	right: 40px;
+	transition: 1s;
+}
+
+.button-up:hover {
+	background-color: #f37335;
+}
+
+.button-up.hidden {
+	opacity: 0;
+}
+
+.button-up.visible {
+	opacity: 1;
 }
 
 /*------ STYLE INDEX ------  */
