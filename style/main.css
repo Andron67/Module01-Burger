@@ -620,8 +620,27 @@ body {
 		gap: 50px 15px;
 	 }
 
-	 .additionally {
-		grid-template-columns: repeat(3, 1fr);
+	 .menu-other {
+		 overflow: hidden;
+		 height: 558px;
+	 }
+
+	 .menu-other .menu-grid {
+		display: flex;
+		width: auto;
+		height: 424px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		padding-bottom: 63px;
+	 }
+
+	 .menu-other .menu-grid-item {
+		flex: 0 0 281px;
+	 }
+
+	 .menu-other .menu-grid-cover,
+	 .menu-other .menu-grid-cover img {
+		 height: 320px;
 	 }
 
 	 .footer-tel {
