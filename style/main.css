@@ -326,14 +326,14 @@ body {
   cursor: pointer;
 }
 
-.menu-grid-icon {
+.menu-grid-btnicon {
   background: url("../images/cart-menu.svg") 0 0 no-repeat;
   display: block;
   width: 18px;
   height: 18px;
 }
 
-.menu-grid-text {
+.menu-grid-btntext {
   color: #1e2f40;
   text-transform: uppercase;
   font-size: 14px;
@@ -352,7 +352,6 @@ body {
 .footer-box {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .footer-logo {
@@ -401,6 +400,7 @@ body {
 
 .footer-list-tel a {
   font-size: 20px;
+  font-weight: 800;
   text-decoration: none;
   color: #fbb731;
 }
@@ -577,6 +577,12 @@ body {
  }
 
  /*------ Responsive ------  */
+ @media(min-width: 1001px) {
+	 .footer-list + .footer-list-tel {
+		display: none;
+	}
+ }
+
  @media(max-width: 1000px) {
 	.wrapper {
 		max-width: 738px;
@@ -613,5 +619,13 @@ body {
 	 .additionally {
 		grid-template-columns: repeat(3, 1fr);
 	 }
+
+	 .footer-tel {
+		 display: none;
+	 }
+
+	 .footer-list + .footer-list-tel{
+		display: block;
+	}
  }
  
